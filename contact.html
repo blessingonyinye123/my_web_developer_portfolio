@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact &amp; Enquiry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Make an Enquiry</h1>
+        <p>Have a project, data task, or opportunity in mind? Send a message below.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Start here</a>
+        <a href="about.html">About me</a>
+        <a href="projects.html">Project</a>
+        <a href="skills.html">My skills</a>
+        <a href="contact.html">Contact me</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Enquiry form</h2>
+            <form action="mailto:onyinyechibless34@gmail.com" method="post" enctype="text/plain">
+                <p>
+                    <label for="full-name">Your name</label><br>
+                    <input type="text" id="full-name" name="full-name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="enquiry-type">Enquiry type</label><br>
+                    <select id="enquiry-type" name="enquiry-type">
+                        <option value="Web development">Web development</option>
+                        <option value="data-analysis">Data Analysis / Cleaning</option>
+                        <option value="collaboration">Collaboration / Project</option>
+                        <option value="general">General Enquiry</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Your Enquiry</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Enquiry</button>
+                </p>
+            </form>
+            <p id="form-message"></p>
+        </section>
+
+        <section>
+            <h2>Direct Contact</h2>
+            <p>Prefer reaching out directly? Email me at <a href="mailto:onyinyechibless34@gmail.com">onyinyechibless34@gmail.com</a> or check my work on <a href="https://github.com/blessingonyinye123" target="_blank">GitHub</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Blessing Onyinye</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
